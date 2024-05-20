@@ -31,8 +31,8 @@ nav ul li{
 nav ul li a{
     text-decoration:wavy;
     color: rgb(90, 6, 108);
-    font-weight: 400;
-    font-size:x-large
+    font-weight: bold;
+    font-size:xx-large;
 }
 .content{
     margin-top: 10%;
@@ -120,4 +120,20 @@ h3 {
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+@media screen and (max-width: 400px) {
+  .column {
+    width: 100%;
+  }
 }
