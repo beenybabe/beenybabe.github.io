@@ -17,34 +17,45 @@
       <nav>
         <img src="images/logo.png" class="logo" />
         <ul>
-          <li><a href="index.html" class="changeclr">Home</a></li>
-          <li><a href="skills.html" class="changeclr">Skills</a></li>
-          <li><a href="about.html" class="changeclr">About</a></li>
+          <li>
+            <a href="index.html" class="changeclr" target="_blank">Home</a>
+          </li>
+          <li>
+            <a href="skills.html" class="changeclr" target="_blank">Skills</a>
+          </li>
+          <li>
+            <a href="about.html" class="changeclr" target="_blank">About</a>
+          </li>
+        </ul>
+      </nav>
+      <nav style="margin: 50px;font-size: 50px;">
+        <ul >
+          <li>
+            <a href="https://www.facebook.com/karabothuthekekana" class=" icon fb" target="_blank"> <ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/beenybabe/?hl=en" class="icon in" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://github.com/beenybabe" class=" icon git" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          </li>
+          <li><a href="mailto:beenykay2@gmail.com" class="icon em"><ion-icon name="mail-outline" target="_blank"></ion-icon></a></li>
         </ul>
       </nav>
       <div class="content animation row">
-        <h1>Let's be friends...</h1>
-        <div class="column">
-          <a href="https://www.instagram.com/beenybabe/?hl=en"
-            ><img
-              class="contactimg"
-              src="images/Instagram.jpg"
-              alt="instagram link"
-          /></a>
-        </div>
-        <div class="column">
-          >
-          <a href="https://github.com/beenybabe"
-            ><img class="contactimg" src="images/GitHub.jpg" alt="github link"
-          /></a>
-        </div>
-        <p>................................</p>
-        <h1 style="text-align: center"><u>Message me:</u></h1>
-        <div style="align-items: center;">
-        <p style="color:white; display: flex; padding-top: 50px;" > <img class="contactimg" src="images/Email.jpg" alt="Email link" />
-          beenykay@gmail.com</p>
-        </div>
+        <h1>Leave me a message...</h1>
       </div>
+      <form>
+        Name:<br>
+        <input type="text" name="name"><br>
+        Email:<br>
+        <input type="text" name="Email"><br>
+        Message:<br>
+        <textarea name="message" rows="5"></textarea><br>
+        <input type="submit" value="send">
+      </form>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
