@@ -142,17 +142,18 @@ input[type=text]{
     padding: 5px;
     font-size: 25px;
     background: local;
-    border-width: 0.5px;
+    border-width: 5px;
     box-shadow: inset;
-    border-color: rgb(155, 10, 77);
+    border-color: rgb(245, 98, 166);
 }
-input[type=submit]{
+button{
     padding: 5px;
     font-size: 25px;
     background-color: rgb(155, 10, 77);;
+    color: white;
     border-width: 2px;
     box-shadow: inset;
-    border-color: rgb(155, 10, 77);
+    border-color: rgb(243, 94, 163);
 }
 textarea{
     background: local;
@@ -161,6 +162,6 @@ textarea{
     height: inherit;
     border-width: 2px;
     box-shadow: inset;
-    border-color: rgb(155, 10, 77);
+    border-color: rgb(241, 73, 152);
 
 }

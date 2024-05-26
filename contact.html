@@ -45,14 +45,19 @@
       <div class="content animation">
         <h1>Leave me a message...</h1>
       </div>
-      <form class="animation">
+      <script>
+        function showAlert(){
+          alert("Message sent!")
+        }
+      </script>
+      <form class="animation" style="color: white;">
         Name:<br>
         <input type="text" name="name"><br>
         Email:<br>
         <input type="text" name="Email"><br>
         Message:<br>
         <textarea name="message" rows="5"></textarea><br>
-        <input type="submit" value="send">
+        <button onclick="showAlert()"> Send </button>
       </form>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
