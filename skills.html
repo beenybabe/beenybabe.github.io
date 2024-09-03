@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,9 +10,37 @@
     <link rel="stylesheet" href="./style.css" type="text/css" />
   </head>
   <body>
-    <div class="hero">
+<nav id="home_page">
+  <div class="logo"><img class="logo" src="images/logo.png" alt="Law and tech logo" /></div> 
+    <div>
+      <ul class="nav_links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experiance">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+  </div>
+</nav>
+<nav id="hamburger_nav">
+  <div class="logo"><img class="logo" src="images/logo.png" alt="Law and tech logo" /></div>
+<div class="hamburger_menu">
+  <div class="hamburger_icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="menu_links">
+    <li><a href="#About" onclick="toggleMenu()">About</a></li>
+    <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+    <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+  </div>
+</div>
+</nav>
+<script src="script.js"></script>
+    <!-- <div class="hero">
       <nav>
-        <img src="images/logo.png" class="logo" />
+        <img src="images/logo.png" class="logo" /> 
         <ul>
           <li>
             <a href="index.html" class="changeclr">Home</a>
@@ -105,7 +133,7 @@
         <h1>Link to CV:</h1>
         <a href="https://drive.google.com/file/d/1cxbpu0pkWCdErduA2Gq0ZMpKnh1S31Wa/view?usp=sharing" target="_blank" style="font-size: 65px;"><ion-icon name="newspaper-outline"></ion-icon></a>
       </div>
-    </div>
+    </div> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
