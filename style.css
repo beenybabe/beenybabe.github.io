@@ -190,7 +190,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 0rem;
-    height: 60vh;
+    height: 95vh;
 }
 .pic_section{
     display: flex;
@@ -252,7 +252,7 @@ section {
 /* ABOUT */
 #about {
     position: relative;
-    margin-top: 30%;
+    margin-top: 50%;
 }
 .about_container {
     gap: 2rem;
@@ -392,7 +392,7 @@ form button {
         margin-top: 78%;
     }
     #hero{
-        height: 40vh;
+        height: 100vh;
         margin-bottom: 0;
     }
     article{
