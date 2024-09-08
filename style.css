@@ -252,7 +252,7 @@ section {
 /* ABOUT */
 #about {
     position: relative;
-    margin-top: 150px;
+    margin-top: 30%;
 }
 .about_container {
     gap: 2rem;
