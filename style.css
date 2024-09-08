@@ -362,7 +362,7 @@ form button {
     cursor: pointer;
 }
 /* RESPONSIVE MEDIA Qs */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 700px) {
     #experience, .experience_info_container{
         margin-top: 2rem;
     }
