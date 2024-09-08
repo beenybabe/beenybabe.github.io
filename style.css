@@ -366,7 +366,7 @@ form button {
     #experience, .experience_info_container{
         margin-top: 2rem;
     }
-    #profile, .section_container{
+    #hero, .section_container{
         display: block;
     }
     section, .section_container{
@@ -389,7 +389,7 @@ form button {
         height: 40vh;
     }
     #hero{
-        height: 83vh;
+        height: 40vh;
         margin-bottom: 0;
     }
     article{
@@ -433,6 +433,6 @@ form button {
     }
     .section_text {
         text-align: justify;
-        
+
     }
 }
