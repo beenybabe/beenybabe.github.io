@@ -388,6 +388,9 @@ form button {
     #contact, footer {
         height: 40vh;
     }
+    #about{
+        margin-top: 78%;
+    }
     #hero{
         height: 40vh;
         margin-bottom: 0;
