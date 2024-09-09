@@ -23,6 +23,13 @@ body {
 html{
     scroll-behavior: smooth;
 }
+#home_page{
+  overflow: hidden;
+  background: rgba(190, 151, 248, 0.7);
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
 p{
     color: black;
 }
@@ -86,7 +93,7 @@ a:hover{
     width: 30px;
     
 }
-@media  screen and (max-width:800px) {
+@media  screen and (max-width:700px) {
     #home_page{
         display: none;
     }
@@ -364,7 +371,7 @@ form button {
 /* RESPONSIVE MEDIA Qs */
 @media screen and (max-width: 700px) {
     #experience, .experience_info_container{
-        margin-top: 2rem;
+        margin-top: 20%;
     }
     #hero, .section_container{
         display: block;
@@ -373,6 +380,9 @@ form button {
         height: fit-content;
     }
     section {
+        margin: 0% 5%;
+    }
+    section #About{
         margin: 0 5%;
     }
     .pic_section, .pic_section2{
@@ -384,12 +394,12 @@ form button {
         margin-top: 0;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     #contact, footer {
         height: 40vh;
     }
     #about{
-        margin-top: 78%;
+        margin-top: 100%;
     }
     #hero{
         height: 100vh;
