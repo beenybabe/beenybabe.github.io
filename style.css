@@ -375,15 +375,19 @@ form button {
     }
     #hero, .section_container{
         display: block;
+        height: 100vh;
+        margin-bottom: 30%;
+
     }
     section, .section_container{
         height: fit-content;
     }
     section {
-        margin: 0% 5%;
+        margin: 0% 15%;
     }
     section #About{
-        margin: 0 5%;
+        margin: 0% 5%;
+        margin-top: 15%;
     }
     .pic_section, .pic_section2{
         width: 275px;
@@ -395,16 +399,10 @@ form button {
     }
 }
 @media screen and (max-width: 700px){
-    #contact, footer {
+    #Contact, footer {
         height: 40vh;
     }
-    #about{
-        margin-top: 100%;
-    }
-    #hero{
-        height: 100vh;
-        margin-bottom: 0;
-    }
+    
     article{
         font-size:1rem;
     }
