@@ -185,6 +185,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    padding: 5%;
 }
 #socials {
     display: flex;
