@@ -207,7 +207,7 @@ section {
     
 }
 .pic_section img{
-    border-radius: 50%;
+    
     outline-offset: 0;
     outline-color: rgba(125, 26, 136, 0.75);
     outline-style: solid;
