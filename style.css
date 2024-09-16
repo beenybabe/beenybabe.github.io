@@ -371,8 +371,9 @@ textarea {
 }
 form button {
     background: linear-gradient(40deg, #CCFFFF, #FFCCCC);
-    padding: 16px 32px;
+    padding: 10px 15px;
     cursor: pointer;
+    margin:  5px;
 }
 /* RESPONSIVE MEDIA Qs */
 @media screen and (max-width: 700px) {
