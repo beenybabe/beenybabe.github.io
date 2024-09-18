@@ -161,7 +161,7 @@ a:hover{
 section {
     padding-top: 4vh;
     height: 96vh;
-    margin: 4vh 20vh;
+    margin: 4vh 4vh;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -275,6 +275,7 @@ section {
 }
 .about_container, .about_info_container {
     display: flex;
+    
 }
 .about_pic {
     border-radius: 2vh;
@@ -321,14 +322,14 @@ section {
 /* EXPERIENCE */
 #Experience {
     position:relative;
-    padding-top: 15%;
+    padding-top: 25%;
 }
 #Projects {
     
-    padding-top: 15%;
+    padding-top: 30%;
 }
 #Contact {
-    padding-top: 20%;
+    padding-top: 35%;
     padding-bottom: 10%;
 }
 .projects {
