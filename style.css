@@ -29,6 +29,8 @@ html{
   position: fixed; 
   top: 0;
   width: 100%;
+  position: fixed;
+  z-index: 900;
 }
 p{
     color: black;
@@ -45,8 +47,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-    position: fixed;
-    z-index:999;
+    
 }
 .nav_links{
     gap:3rem;
@@ -79,9 +80,8 @@ a:hover{
 }
 /* HAMBURGER MENU */
 #hamburger_nav{
-    display: none;
-    
-    gap: 5rem
+    display: none;  
+    gap: 4vh;
 }
 .hamburger_menu{
     position: relative;
