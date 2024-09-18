@@ -393,9 +393,7 @@ form button {
     section, .section_container{
         height: fit-content;
     }
-    section {
-        margin: 0% 20%;
-    }
+
     section #About{
         margin: 0% 5%;
         margin-top: 15%;
