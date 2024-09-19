@@ -199,6 +199,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 15%;
 
 }
 .pic_section{
@@ -377,6 +378,7 @@ form button {
     }
     #hero, .section_container{
         display: block;
+        margin-top: 0;
     }
     section, .section_container{
         height: fit-content;
