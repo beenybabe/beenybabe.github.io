@@ -1,191 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karabo Thuthe</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Sofia"
-    >
-    <link rel="stylesheet" href="./style.css" type="text/css" >
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
   <body>
-<nav id="home_page">
-  <div class="logo"><img class="logo" src="images/logo.png" alt="Law and tech logo" ></div> 
-    <div>
-      <ul class="nav_links">
-      <li><a href="#About">About</a></li>
-      <li><a href="#Experience">Experience</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#Contact">Contact</a></li>
-      </ul>
-  </div>
-</nav>
-<nav id="hamburger_nav">
-  <div><img class="logo" src="images/logo.png" alt="Law and tech logo" ></div>
-<div class="hamburger_menu">
-  <div class="hamburger_icon" onclick="toggleMenu()">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  <div class="menu_links">
-    <ol>
-    <li><a href="#About" onclick="toggleMenu()">About</a></li>
-    <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
-    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
-    <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
-  </ol>
-  </div>
-</div>
-</nav>
-<section id="hero">
-  <div class="pic_section">
-    <img src="images/IMG_20240903_091657.jpg" alt="picture of karabo">
-  </div>
-  <div class="section_text">
-    <p class="section_text_p1">Hello, I'm</p>
-    <h1 class="title">Karabo Thuthe</h1>
-    <p class="section_text_p2">Web Development Recruit @ Umuzi</p>
-    <div class="btn_container">
-      <button class ="btn btn_colour_1" onclick="window.open('cv_example/myCV.pdf')">
-        Open CV
-      </button>
-      <button class ="btn btn_colour_2" onclick="location.href='#Contact'">
-        Contact Me
-      </button>
-    </div>
-    <div id="socials">
-      <a href="https://www.facebook.com/karabo.thuthekekana"
-      class=" icons"
-      target="_blank"> <ion-icon name="logo-facebook" ></ion-icon></a>
-      <a href="https://www.instagram.com/beenybabe/" 
-      class="icons" 
-      target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-      <a href="https://github.com/beenybabe" 
-      class=" icons" 
-      target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-    </div>
-  </div>
-</section>
-<section id="About">
-  <p class="section_text_p1">Get to Know Me</p>
-  <h1 class="title">About me</h1>
-  <div class="section_container">
-    <div class="pic_section2">
-      <img src="images/20240905_185904.jpg" alt="picture of Karabo" class="about_pic">
-    </div>
-    <div class="about_info_container">
-      <div class="about_container">
+    <div id="particles-js"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <nav id="home_page">
+      <div class="logo">
+        <img class="logo" src="images/logo.png" alt="Law and tech logo" />
+      </div>
+      <div>
+        <ul class="nav_links">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger_nav">
+      <div>
+        <img class="logo" src="images/logo.png" alt="Law and tech logo" />
+      </div>
+      <div class="hamburger_menu">
+        <div class="hamburger_icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu_links">
+          <ol>
+            <li><a href="#About" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+          </ol>
+        </div>
+      </div>
+    </nav>
+    <section id="hero">
+      <div class="pic_section">
+        <img src="images/IMG_20240903_091657.jpg" alt="picture of karabo" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Karabo Thuthe</h1>
+        <p class="section_text_p2">Web Development Recruit @ Umuzi</p>
+        <div class="btn_container">
+          <button
+            class="btn btn_colour_1"
+            onclick="window.open('cv_example/myCV.pdf')"
+          >
+            Open CV
+          </button>
+          <button class="btn btn_colour_2" onclick="location.href='#Contact'">
+            Contact Me
+          </button>
+        </div>
+        <div id="socials">
+          <a
+            href="https://www.facebook.com/karabo.thuthekekana"
+            class="icons"
+            target="_blank"
+          >
+            <ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a
+            href="https://www.instagram.com/beenybabe/"
+            class="icons"
+            target="_blank"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="https://github.com/beenybabe" class="icons" target="_blank"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <p class="section_text_p1">Get to Know Me</p>
+      <h1 class="title">About me</h1>
+      <div class="section_container">
+        <div class="pic_section2">
+          <img
+            src="images/20240905_185904.jpg"
+            alt="picture of Karabo"
+            class="about_pic"
+          />
+        </div>
+        <div class="about_info_container">
+          <div class="about_container">
+            <div class="info_container">
+              <div><ion-icon class="icons2" name="ribbon"></ion-icon></div>
+              <h3>Experience</h3>
+              <p>
+                Beginner @ <br />
+                Python JavaScript, CSS, and HTML
+              </p>
+            </div>
+            <div class="info_container">
+              <div><ion-icon class="icons2" name="school"></ion-icon></div>
+              <h3>Education</h3>
+              <p>
+                Recruit @ <br />
+                Umuzi learning Web development first year
+              </p>
+            </div>
+          </div>
+          <div class="text_container">
+            <p>
+              I am a Web development recruit at Umuzi. I am doing an online Web
+              development course for nine months. I have a law background, I
+              studied Bcom in law at the University of Johannesburg. I ventured
+              into IT on a whim but I am loving the change in environment. I
+              hope to enhance my skills in Web development and go as far as
+              possible as a Web developer
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Experience">
+      <p class="section_text_p1">About My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience_info_container">
+        <div class="about_container">
+          <div class="info_container">
+            <h2 class="experience_sub_title">Frontend Development</h2>
+            <div class="article_container">
+              <article>
+                <ion-icon class="icons2" name="logo-html5"></ion-icon>
+                <div>
+                  <h3>HTML</h3>
+                  <p>beginner</p>
+                </div>
+              </article>
+              <article>
+                <ion-icon class="icons2" name="logo-javascript"></ion-icon>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>beginner</p>
+                </div>
+              </article>
+              <article>
+                <ion-icon class="icons2" name="logo-css3"></ion-icon>
+                <div>
+                  <h3>CSS</h3>
+                  <p>beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="info_container">
+            <h2 class="experience_sub_title">Backend Development</h2>
+            <div class="article_container">
+              <article>
+                <ion-icon class="icons2" name="logo-github"></ion-icon>
+                <div>
+                  <h3>GIT</h3>
+                  <p>intermediate</p>
+                </div>
+              </article>
+              <article>
+                <ion-icon class="icons2" name="logo-nodejs"></ion-icon>
+                <div>
+                  <h3>NODE</h3>
+                  <p>beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Projects">
+      <div>
+        <p class="section_text_p1">My Projects</p>
+        <h2 class="title">Projects</h2>
         <div class="info_container">
-          <div ><ion-icon class="icons2" name="ribbon"></ion-icon></div>
-          <h3>Experience</h3>
-          <p>Beginner @ <br> Python JavaScript, CSS, and HTML</p>
-        </div>
-        <div class="info_container">
-          <div><ion-icon class="icons2" name="school"></ion-icon></div>
-          <h3>Education</h3>
-          <p>Recruit @ <br>
-            Umuzi learning Web development first year</p>
+          <p>I HAVE NOT DONE ANY PROJECTS YET</p>
         </div>
       </div>
-      <div class="text_container">
-        <p>I am a Web development recruit at Umuzi. I am doing an online Web development course for nine months.
-          I have a law background, I studied Bcom in law at the University of Johannesburg. 
-          I ventured into IT on a whim but I am loving the change in environment. I hope to enhance my
-          skills in Web development and go as far as possible as a Web developer</p>
-      </div>      
-    </div>
-  </div>
-</section>
-<section id="Experience">
-  <p class="section_text_p1">About My</p>
-  <h1 class="title">Experience</h1>
-  <div class="experience_info_container">
-    <div class="about_container">
-      <div class="info_container">
-        <h2 class="experience_sub_title">Frontend Development</h2>
-        <div class="article_container">
-          <article>
-            <ion-icon class="icons2" name="logo-html5"></ion-icon>
-            <div>
-              <h3>HTML</h3>
-              <p>beginner</p>
-            </div>
-          </article>
-          <article>
-            <ion-icon class="icons2" name="logo-javascript"></ion-icon>
-            <div>
-              <h3>JavaScript</h3>
-              <p>beginner</p>
-            </div>
-          </article>
-          <article>
-            <ion-icon class="icons2" name="logo-css3"></ion-icon>
-            <div>
-              <h3>CSS</h3>
-              <p>beginner</p>
-            </div>
-          </article>
+    </section>
+    <section id="Contact">
+      <div>
+        <p class="section_text_p1">Contact me</p>
+        <h1 class="title">Drop me a message..</h1>
+        <div class="contact_info_upper_containe">
+          <div class="contact_info_containe">
+            <h2>
+              <ion-icon name="mail-outline"></ion-icon> beenykay@gmial.com
+            </h2>
+            <form
+              class="form"
+              action="mailto:beenykay22gmail.com"
+              method="post"
+              enctype="text/plain"
+              autocomplete="on"
+            >
+              Name:<br />
+              <input type="text" name="name" placeholder="Your name.." /><br />
+              Email:<br />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your email address.."
+              /><br />
+              Message:<br />
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Write something.."
+              ></textarea
+              ><br />
+              <button onclick="showAlert()">Send</button
+              ><button type="reset" value="Reset">Reset</button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="info_container">
-        <h2 class="experience_sub_title">Backend Development</h2>
-        <div class="article_container">
-          <article>
-            <ion-icon class="icons2" name="logo-github"></ion-icon>
-            <div>
-              <h3>GIT</h3>
-              <p>intermediate</p>
-            </div>
-          </article>
-          <article>
-            <ion-icon class="icons2" name="logo-nodejs"></ion-icon>
-            <div>
-              <h3>NODE</h3>
-              <p>beginner</p>
-            </div>
-          </article>
-         
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section>
-<section id="Projects">
-  <div>
-  <p class="section_text_p1">My Projects</p>
-  <h2 class="title">Projects</h2>
-  <div class="info_container">
-    <p> I HAVE NOT DONE ANY PROJECTS YET</p>
-  </div>
-  </div>
-</section>
-<section id="Contact">
-  <div>
-  <p class="section_text_p1">Contact me</p>
-  <h1 class="title">Drop me a message..</h1>
-  <div class="contact_info_upper_containe">
-    <div class="contact_info_containe">
-     <h2> <ion-icon name="mail-outline"></ion-icon>
-      beenykay@gmial.com</h2>
-      <form class="form" action="mailto:beenykay22gmail.com" method="post" enctype="text/plain" autocomplete="on">
-        Name:<br>
-        <input type="text" name="name" placeholder="Your name.."><br>
-        Email:<br>
-        <input type="text" name="Email" placeholder="Your email address.."><br>
-        Message:<br>
-        <textarea name="message" rows="5" placeholder="Write something.."></textarea><br>
-        <button onclick="showAlert()"> Send </button><button type="reset" value="Reset">Reset</button>
-      </form>      
-    </div>
-  </div>
-  </div>
-</section>
-<a href="#" class="back_to_top" id="arrow"><ion-icon class="icons2" name="arrow-up-circle-outline"></ion-icon></a>
-<script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </section>
+    <a href="#" class="back_to_top" id="arrow"
+      ><ion-icon class="icons2" name="arrow-up-circle-outline"></ion-icon
+    ></a>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
