@@ -6,9 +6,12 @@ body {
     width: 100%;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;	
-    background: linear-gradient(271deg,#ebafdd,#d7c2ed,#98b0a5,#e8eda1);
-	background-size: 400% 400%; 
-	animation: gradient 10s ease infinite;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("./images/background_img.png");
 } 
 
 @keyframes gradient {
