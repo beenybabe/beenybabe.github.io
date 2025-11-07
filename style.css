@@ -9,6 +9,7 @@ body {
     width: 100%;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;	
+    color: white;
     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,40 +27,45 @@ body {
 html{
     scroll-behavior: smooth;
 }
+
 #home_page{
   overflow: hidden;
-  background: rgba(190, 151, 248, 0.7); 
+ background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
   top: 0;
   position: fixed;
   z-index: 900;
 }
-p{
-    color: black;
-}
+
 /* TRANSITION */
 a, .btn{
     transition: all 300ms ease;
 }
+
 /* HOME_PAGE */
 nav, .nav_links{
     display: flex;
 }
+
 nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
     width: 100%;
 }
+
 .nav_links{
     gap:3rem;
     list-style: none;
     font-size: 1.2rem;
 }
+
  a{
-    color: black;
+    color: white;
     text-decoration: none;
     
 }
+
 a:hover{
     color: white;
     border-top: 2px solid white; 
@@ -79,19 +85,22 @@ a:hover{
     border-radius: 50%;
     opacity: 90%;
 }
+
 /* HAMBURGER MENU */
 #hamburger_nav{
     display: none;  
     gap: 4vh;
     position: sticky;
     top: 0;
-    background: rgba(190, 151, 248, 0.7);
+     background: rgba(0, 0, 0, 0.6);
     z-index: 999;
 }
+
 .hamburger_menu{
     position: relative;
     display: inline-block;
 }
+
 .hamburger_icon{
     display: flex;
     flex-direction: column;
@@ -100,6 +109,7 @@ a:hover{
     width: 30px;
     
 }
+
 @media  screen and (max-width:700px) {
     #home_page{
         display: none;
@@ -121,7 +131,7 @@ a:hover{
 .hamburger_icon span{
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: white;
     transition: all 0.3s ease-in-out;
 }
 .menu_links{
@@ -244,12 +254,14 @@ section {
     width: 6vh;
     
 }
+
 /* BUTTONS */
 .btn_container {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
+
 .btn {
     font-weight: 600;
     transition: all 300ms ease;
@@ -257,11 +269,13 @@ section {
     width: 8rem;
     border-radius: 2rem;
 }
+
 .btn_colour_1 {
     background-color: black;
     color:white;
     
 }
+
 .btn_colour_1:hover, .btn_colour_2:hover {
     background: linear-gradient(-45deg, #FFCCCC,#CCFFFF);
     color: black;
@@ -276,19 +290,24 @@ section {
     position: relative;
     height: auto;
 }
+
 .about_container {
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: black;
 }
+
 .about_info_container {
     justify-content: center;
     flex-direction: column;
 }
+
 .about_container, .about_info_container {
     display: flex;
     
 }
+
 .about_pic {
     border-radius: 2vh;
 }
@@ -304,6 +323,7 @@ section {
     border: black solid;
     text-align: center;
     animation: gradient 1.5s ease infinite;
+    color: black;
 }
 
 .section_container{
@@ -346,6 +366,7 @@ section {
     justify-content: center;
     flex-direction: column;
 }
+
 .article_container {
     display: flex;
     text-align: initial;
@@ -354,6 +375,7 @@ section {
     gap: 2rem;
     justify-content: space-around;
 }
+
 article {
     display: flex;
     width: 10rem;
@@ -361,24 +383,12 @@ article {
     gap: 0.5rem;
 }
 /* CONTACT */
-form {
-    font-size: larger;
-    padding-bottom: 5%;
+
+.contact_info_container {
+    color: #f57af7;
+    text-align: center;
 }
-input {
-    width: 80%;
-    height: 7vh;
-}
-textarea {
-    width: 80%;
-    height: 20vh;
-}
-form button {
-    background: linear-gradient(40deg, #CCFFFF, #FFCCCC);
-    padding: 10px 15px;
-    cursor: pointer;
-    margin:  5px;
-}
+
 /* RESPONSIVE MEDIA Qs */
 @media screen and (max-width: 315px) {
     body{
@@ -453,4 +463,26 @@ form button {
     .title {
         font-size: 2rem;
     }
+}
+@keyframes shooting-star {
+  0% {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(400px) translateY(200px);
+    opacity: 0;
+  }
+}
+
+.shooting-star {
+  position: fixed;
+  top: 20%;
+  left: 25%;
+  width: 2px;
+  height: 2px;
+  background: white;
+  box-shadow: 0 0 6px 2px white;
+  border-radius: 50%;
+  animation: shooting-star 3s ease-in-out infinite;
 }
